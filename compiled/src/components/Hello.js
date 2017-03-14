@@ -1,0 +1,14 @@
+"use strict";
+
+window.Hello = Hello;
+
+var Hello = function Hello() {
+  return React.createElement(
+    "h1",
+    null,
+    "Hello"
+  );
+};
+
+module.exports.Hello = Hello;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2NsaWVudC9zcmMvY29tcG9uZW50cy9IZWxsby5qc3giXSwibmFtZXMiOlsid2luZG93IiwiSGVsbG8iLCJtb2R1bGUiLCJleHBvcnRzIl0sIm1hcHBpbmdzIjoiOztBQUFBQSxPQUFPQyxLQUFQLEdBQWVBLEtBQWY7O0FBRUEsSUFBSUEsUUFBUSxTQUFSQSxLQUFRLEdBQU07QUFDaEIsU0FDSTtBQUFBO0FBQUE7QUFBQTtBQUFBLEdBREo7QUFHRCxDQUpEOztBQU1BQyxPQUFPQyxPQUFQLENBQWVGLEtBQWYsR0FBdUJBLEtBQXZCIiwiZmlsZSI6IkhlbGxvLmpzIiwic291cmNlc0NvbnRlbnQiOlsid2luZG93LkhlbGxvID0gSGVsbG87XG5cbnZhciBIZWxsbyA9ICgpID0+IHtcbiAgcmV0dXJuIChcbiAgICAgIDxoMT5IZWxsbzwvaDE+XG4gIClcbn07XG5cbm1vZHVsZS5leHBvcnRzLkhlbGxvID0gSGVsbG87Il19
