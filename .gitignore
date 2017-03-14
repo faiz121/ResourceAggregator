@@ -1,4 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
+##compiled template
+compiled/
+public/*.js
 ### Node template
 # Logs
 logs
