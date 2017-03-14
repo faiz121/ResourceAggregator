@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel  client/src --out-dir compiled/src --presets=es2015,react --ignore=node_modules,compiled --source-maps inline -w"
+    "server" : "nodemon server/server.js",
+    "start" : "nodemon server/server.js --exec babel-node --presets es2015,stage-2"
+//    "start": "babel  client/src --out-dir compiled/src --presets=es2015,react --ignore=node_modules,compiled --source-maps inline -w"
   },
   "repository": {
     "type": "git",
